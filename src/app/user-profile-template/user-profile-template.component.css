@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: blue;
+  font-family: 'Dancing Script', cursive;
+}
+
+.nav-link {
+  color: rgb(10, 10, 94);
+}
+
+.nav-link:hover {
+  color: red;
+  transition: 0.4s;
+}
+
+.nav-item {
+  color: rgb(7, 7, 78);
+  font-weight: 500;
+  padding-left: 35px;
+}
+.btn0 {
+  margin: 4px;
+  padding: 5px;
+  background-color: transparent;
+  color: lightblue;
+  outline: none;
+  border: 2px solid lightblue;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.btn0:hover {
+  background-color:lightblue;
+  transition: all 0.3s;
+  color: white;
+  border: none;
+  outline: none;
+}
+.navbar {
+  z-index: 1; /* Ensure the navbar appears on top of other elements */
+}
+.carousel-container-fluid {
+  margin-top: -56px; /* Adjust for the height of the fixed navbar */
+  z-index: 0; /* Ensure the carousel is behind the navbar */
+}
+.twitter{
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+.btn1{
+  margin: 4px;
+  padding: 5px;
+  background-color: transparent;
+  color: lightblue;
+  outline: none;
+  border: 2px solid lightblue;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.btn1:hover {
+  background-color:lightblue;
+  transition: all 0.3s;
+  color: white;
+  border: none;
+  outline: none;
+}
+.modal {
+  text-align: center;
+
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.tag-input-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  padding: 1px;
+}
+
+.tag {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.tag span {
+  cursor: pointer;
+  margin-left: 8px;
+}
